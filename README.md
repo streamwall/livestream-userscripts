@@ -8,6 +8,16 @@ This repository contains userscripts for Tampermonkey, Greasemonkey, and support
 | --- | --- | --- |
 | `scripts/yt-search-filter.user.js` | Auto-apply YouTube search filters and hide results from selected channels. | `https://www.youtube.com/results*` |
 
+## Script Instructions
+
+### YouTube Search Filter Helper (`scripts/yt-search-filter.user.js`)
+- Visit a YouTube search results page.
+- Click the filter icon next to the YouTube logo to open the YSF panel.
+- Toggle “Enabled” to disable/enable all script behavior.
+- Use “Auto filters” to apply the Live + Popularity filters automatically.
+- Add channels in the “Hide channels” box (supports `@handle`, names, and `*` wildcards).
+- Click “Hide channel” under a live result to add it instantly.
+
 ## Installation
 
 ### General workflow (any userscript manager)
